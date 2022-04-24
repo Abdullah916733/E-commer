@@ -1,0 +1,176 @@
+
+.headerCreate
+{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(221, 255, 255);
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 2px solid black;
+}
+
+.headerIconArrow
+{
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    border:1px solid transparent;
+    margin-left: 10px;
+}
+
+.headerTitle
+{
+    border:1px solid transparent;
+    padding:20px;
+
+}
+
+.headerIcon
+{
+   border:1px solid transparent;
+   right:0px;
+   position:absolute;
+   font-size: 40px;
+   padding: 10px 20px;
+}
+
+.headerIconNumber
+{
+    border:1px solid black;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50px;
+    font-size: 15px;
+    background-color: aqua;
+    color:blue;
+    font-weight: bold;
+    margin-left: 18px;
+}
+
+.headerIconNumber  h4 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2px;
+}
+
+.Items
+{
+    height: 500px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgb(221, 255, 255);
+
+}
+
+.itemsList
+{ 
+  
+     width: 90%;
+     border:1px solid black;
+     margin: auto;
+     background-color: white;
+}
+
+.itemsImg
+{
+    height: 100px;
+    width: 100px;
+    border:1px solid black;
+}
+
+.itemsImg  > img
+{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+
+.itemsTotal
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.itemsAdd span
+{
+    font-size: 40px;
+}
+
+.itemsAdd input
+{
+    width: 50px;
+}
+
+.itemsDelete
+{
+    font-size: 30px;
+    color:red;
+}
+
+.itemsContainer
+{
+    position: relative;
+}
+
+.totlaAmount
+{
+    position: absolute;
+    right: 0px;
+}
+
+ span {
+     cursor: pointer;
+ }
+
+
+@media screen  and (max-width: 500px) {
+    
+   .itemsTotal 
+   {
+    display: flex;
+    align-items:flex-start;
+    justify-content:center;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    height: 100%;
+   }
+
+   .itemsImg
+   {
+       height: 150px;
+       width: 150px;
+       border:1px solid black;
+       margin: auto;
+   }
+
+   .itemsAdd span 
+   {
+       font-size: 30px;
+   }
+
+   .itemsAdd input
+   {
+       font-size: 10px;
+       width: 30px;
+   }
+
+   .itemsDelete
+   {
+       font-size: 20px;
+       color:red;
+   }
+  
+ .itemTitle
+{
+   padding-top: 10px ;
+}
+
+}
